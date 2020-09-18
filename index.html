@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="el" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="D N Mandos">
+    <title>Mini Game!</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="final-style.css">
+    <script src="final-script.js" defer></script>
+</head>
+<body>
+
+    <h1>Παιχνίδι: μάντεψε τον αριθμό!</h1>
+    <div class="instructions">
+
+    <p>
+        Έχω διαλέξει ένα τυχαίο αριθμό μεταξύ του 1 και του 100.<br>
+        Προσπάθησε να τον μαντέψεις σε 10 το πολύ <span class="danger">(!)</span> προσπάθειες.<br>
+        Κάθε φορά θα σού λέω αν ο αριθμός που μάντεψες είναι μεγαλύτερος ή μικρότερος από τον σωστό αριθμό.
+    </p>
+    <br>
+
+    <img src="images/confused.png" alt="Confused" class="instructions-img">
+    <br>
+
+    <label for="new-guess">Μάντεψε: </label>
+    <input type="text" name="new-guess" id="new-guess" size="5">
+    <button id="check"> Έλεγχος </button>
+
+  </div>
+  <div id="message">  </div>
+  <div id="low-high"></div>
+  <button id= "restart"> Παίξε ξανά </button>
+
+
+  <br><br><br><br><br><br><br><br>
+  <!-- could have put a margin there though! 😅 -->
+
+  <a href="https://dmandos.github.io/"><i>Created from D N Mandos!</i></a>
+  <br>
+</body>
+</html>

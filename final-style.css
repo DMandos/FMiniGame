@@ -1,0 +1,81 @@
+:root {
+  --msg-win-color: rgb(0, 128, 32);
+  --msg-wrong-color: crimson;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  padding: 5%;
+}
+
+p{
+  text-shadow: 0.5px 0.5px gray;
+}
+
+.instructions {
+  margin: 0 auto;
+  width:50%;
+  line-height: 1.5;
+}
+
+.danger {
+  color:red;
+}
+
+.instructions-img {
+  display: block;
+  margin:0 auto;
+  width:25%;
+  padding: 0.5%;
+}
+
+#check, #restart {
+  border: 0.1em solid;
+  border-radius: 0.25em;
+  background-color: teal;
+  color: whitesmoke;
+  font-size: 1em;
+  margin: 0.5%;
+}
+
+#check {
+  margin-top: 10%;
+}
+
+#restart {
+  margin: 2em auto;
+  padding: 0.5em;
+}
+
+#message {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#low-high {
+  color: gray;
+}
+
+a {
+  color: black;
+  font-size: 75%;
+}
+a:hover {
+  color: #043927;
+}
+
+/*Responsive img*/
+
+@media (max-width:500px) {
+  .instructions-img {
+    width: 45%;}
+}
